@@ -12,10 +12,6 @@ class MyApp extends StatelessWidget {
       title: 'Profile Card',
       home: Scaffold(
         backgroundColor: const Color(0xFFEAF2FF),
-        appBar: AppBar(
-          title: const Text('Profile Card'),
-          backgroundColor: const Color.fromARGB(255, 21, 214, 108),
-        ),
         body: Center(
           child: ProfileCard(
             name: 'Niti Meesangpatch',
